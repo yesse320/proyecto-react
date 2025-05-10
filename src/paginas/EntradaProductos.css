@@ -1,0 +1,61 @@
+.fondo-general {
+  background-color: rgb(125, 170, 223); /* Fondo general */
+  min-height: 100vh; /* Altura mínima del fondo */
+  padding: 20px;
+  font-family: Arial, sans-serif; /* Fuente de todo el contenido */
+  color: black; /* Color de texto */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formulario {
+  max-width: 400px;
+  width: 100%;
+  background-color: white; /* Fondo blanco para el formulario */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para el formulario */
+}
+
+.table-form {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table-form td {
+  padding: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Bordes de los inputs */
+  border-radius: 5px;
+}
+
+.boton-registro {
+  background-color: #16c8ce;/* Azul */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.boton-registro:hover {
+  background-color: #3498db;
+}
+
+.producto-item {
+  background-color: #ecf0f1; /* Fondo de los elementos de producto */
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
