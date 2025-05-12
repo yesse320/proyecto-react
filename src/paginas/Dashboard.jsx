@@ -9,7 +9,7 @@ function Dashboard() {
   const location = useLocation();
 
   const handleLogout = () => {
-    // Aquí puedes agregar la lógica para cerrar sesión
+    // lógica para cerrar sesión
     navigate('/login');
   };
 

@@ -27,7 +27,7 @@ function AgregarProducto() {
         e.preventDefault();
         
         try {
-            // Convertir valores numéricos
+            //Convertir valores numéricos
             const precio = parseFloat(formData.precio) || 0;
             const cantidad = parseInt(formData.cantidad) || 0;
 
